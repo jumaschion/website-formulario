@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Exercicio 7 - Formulario </title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+   
+</head>
+<body>
+    <form action="obrigada.html" method="GET">
+
+    
+        <div class="form__header">
+            <label class="form__label_tamanho"for="text"> Texto </label>
+            <input class="border" type="text" name="name" placeholder="">
+        </div>
+
+        <div class="form__header">
+            <label class="form__label_tamanho" for="name"> Senha </label>
+            <input class="border" type="text" name="name" placeholder="">
+        </div>
+  
+
+        <div class="form-options">
+            <p class="form__titulo">Escolha uma ou múltiplas opções:</p> 
+            <div class="checkbox1">
+                <input type="checkbox" name="caracteristics" value="Mulher" > Mulher <br>
+                <input type="checkbox" name="caracteristics" value="Poderosa" > Poderosa <br>
+                <input type="checkbox" name="caracteristics" value="Linda" > Linda <br>
+                <input type="checkbox" name="caracteristics" value="Maravilhosa" > Maravilhosa <br>
+           </div>
+        </div>
+        
+
+        <div class="form-options2">
+            <p class="form__titulo"> </p>Escolha uma opção:</p> 
+            <div class="checkbox2">
+                <input type="radio" name="power" value="power" > Super força <br>
+                <input type="radio" name="power" value="power" > Ser invísível <br>
+                <input type="radio" name="power" value="power" > Ler mentes <br>
+                <input type="radio" name="power" value="power" > Super velocidade <br>
+            </div>
+        </div>
+
+        <div class="form-options3">
+            <p class="form__titulo">Seleciona Dropdown:</p> 
+            
+            <select name="select">
+                <option value="valor1">Valor 1</option> 
+                <option value="valor2" selected>Valor 2</option>
+                <option value="valor3">Valor 3</option> 
+            </select>
+        </div>
+
+            <p class="form__titulo">Escolha um valor:</p> 
+            <input type="number">
+        </div>
+
+        <div class="form__comentarios">
+         <p class="form__titulo">Comentários</p class="form__titulo">
+         <textarea name="comentário" rows="10" cols="40"></textarea>
+        <input type="submit" value="Submit">
+        </div>
+  
+</form>
+
+
+    
+</body>
+</html>
